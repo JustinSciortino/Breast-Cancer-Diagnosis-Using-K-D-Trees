@@ -83,7 +83,7 @@ public class Ass3 {
         int testCount = 0;
         int trainCount = 0;
 
-        String path = "/Users/justinsciortino/Desktop/data.csv";
+        String path = "/data.csv"; //Add your own path file
         String line = "";
         try {
             BufferedReader BR = new BufferedReader(new FileReader(path));
