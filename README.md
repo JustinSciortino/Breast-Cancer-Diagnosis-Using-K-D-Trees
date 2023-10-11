@@ -12,6 +12,9 @@ K-D trees are binary trees in which every node is a k-dimensional point. K-D tre
 A priority queue was utilized when finding the k-nearest neighbours of a given test record (target). The priority queue was implemented in such a way that the nearest neighbours were prioritized based on their Euclidean distance to the target. The distance method implemented in the KdTree class was used as the comparator to determine the priority. The searching algorithm to find the k-nearest neighbours was recursive and the algorithm extracted k nodes with the highest priority from the priority queue. In terms of running time and testing accuracy, both Figures 1 and 2 demonstrate their respective trends as a function of the number of training instances. When measuring the running time and accuracy for the instances and the k nearest neighbors, the data was gathered under the same conditions. In addition, for each N (training instances), the testing accuracy and running time values were averages of 8 runs of the program. 
 
 As is demonstrated by Figure 1, the testing accuracy remained consistent regardless of the number of training instances. When the k nearest neighbors were seven, the program was the most accurate at predicting a diagnosis. When the k nearest neighbors were three, the testing accuracy was the lowest, however it still remained above eighty percent. As is demonstrated by Figure 2, when the k nearest neighbors were three, the running time increased logarithmic. When the k nearest neighbors were both seven and five, the running times increased linearly. As can be observed by the figure, the smaller the k nearest neighbor value, the higher the running time. 
+
+
+
 ![image](https://github.com/JustinSciortino/K-D-Tree/assets/123967053/fd625038-5467-445e-817a-5afad3936199)
 ![image](https://github.com/JustinSciortino/K-D-Tree/assets/123967053/0ed76829-d520-4321-b459-30a28a4a6bee)
 
